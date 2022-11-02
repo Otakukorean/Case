@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.container .text h1{
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: var(--fotn-color);
+    padding-bottom: 30px;
+}
+.container .text p {
+    font-size: 1rem;
+    color: #7A7490;
+}
+
+.container .text {
+    margin-bottom: 25px;
+}
+.container .btn-container button {
+    background: var(--buutons-bg);
+    width: 9.375rem;
+    height: 3.625rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--bg-color);
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+    cursor: pointer;
+}
+.img {
+    width: 100vw;
+    height: auto;
+    object-fit: fill;
+}

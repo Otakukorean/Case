@@ -1,0 +1,74 @@
+.container{
+    text-align: center;
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 15rem ;
+    padding-bottom: 100px;
+}
+@media screen and (max-width: 1200px){
+    .hero-container {
+        flex-direction: row;
+        margin:10px 4rem ;
+    }
+}
+@media screen and (max-width: 750px){
+    .hero-container {
+        flex-direction: column-reverse;
+        margin:0 1rem ;
+    }
+}
+@media screen and (max-width: 600px){
+    .hero-container {
+        flex-direction: column-reverse;
+        margin:0 1rem ;
+    }
+}
+@media screen and (max-width: 290px){
+    .hero-container {
+        flex-direction: column-reverse;
+        margin:0 0 0 3rem ;
+    }
+}
+
+span {
+    color: var(--span-color);
+}
+.hero-container .text-btn-container .text h1 {
+    font-size: 3.75rem;
+}
+.text {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px){
+    .text {
+        margin-bottom: 10px;
+    }
+    .hero-img-container img {
+        width: 450px;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 600px){
+    .text h1 {
+        font-size: 5rem;
+    }
+    
+}
+
+.btn-hero {
+    background: var(--buutons-bg);
+    font-size:14px ;
+    width:10rem ;
+    height: 3.625rem;
+    color:var(--bg-color) ;
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -ms-border-radius: 30px 30px 30px 30px;
+    -o-border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+

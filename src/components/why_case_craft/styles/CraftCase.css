@@ -1,0 +1,66 @@
+.Case-crft-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text_btn_container{
+    text-align: left;
+}
+
+.text_btn_container h1{
+    color: var(--fotn-color);
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+   
+}
+.text_btn_container p{
+    color: var(--p-color);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+.text_btn_container button {
+    color: var( --bg-color);
+    font-size: 0.875rem;
+    background: var(--buutons-bg);
+    width:10rem ;
+    height: 3.625rem;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+    cursor: pointer;
+}
+.pargrap-container p {
+    font-size: 1.25rem;
+    color: var(--p-color);
+}
+
+@media screen and (max-width:900px){
+    .airpods-container img {
+        width: 400px;
+    }
+    .text_btn_container{
+        text-align: center;
+    }
+    .text_btn_container p {
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .airpods-container img {
+        width: 400px;
+    }
+    .text_btn_container p {
+        font-size: 1.4rem;
+    }
+    .pargrap-container p {
+        font-size: 1.25rem;
+    }
+
+}

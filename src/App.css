@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --bg-color :#f6f6f9;
+  --span-color:#9672fb;
+  --a-color:#a19daf;
+  --fotn-color:#2f2651;
+  --p-color:#7a7490;
+  --buutons-bg:linear-gradient(to right, #9672fb, #a872fc, #b872fc, #c872fc, #d772fb);
+}
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--span-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#7759c8 ;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+html{
+  height: --webkit-fill-available;
+}
+body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100vh;
+  height: --webkit-fill-available;
+  
+
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 290px){
+  .App {
+      text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 600px){
+  .App {
+      text-align: center;
+      width: 390px;
   }
 }

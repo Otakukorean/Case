@@ -1,0 +1,140 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 8.75rem;
+}
+.Container-fluid {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0 0 100px 100px;
+  -webkit-border-radius: 0 0 100px 100px;
+  -moz-border-radius: 0 0 100px 100px;
+  -ms-border-radius: 0 0 100px 100px;
+  -o-border-radius: 0 0 100px 100px;
+  width: 100vw;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  margin-bottom: 20px;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@media screen and (max-width:1000px) {
+    .Container {
+        padding: 2.5rem 5rem;
+    }
+}
+@media screen and (max-width:500px) {
+  .Container-fluid{
+    width: 420px;
+  }
+}
+@media screen and (max-width:300px) {
+  .Container-fluid{
+    width: 450px;
+  }
+}
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logocontainer img {
+    width: 1.9rem;
+    height: 2.8rem;
+}
+.logocontainer .logo_name h2 {
+  font-weight: 500;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.hamNva ul li{
+  display: none;
+}
+.sidebar ul {
+  margin-right: 200px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.sidebar ul li {
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.sidebar ul li {
+  margin-bottom:20px;
+  font-size: 30px;
+}
+.sidebar ul li a:hover{
+  color: var(--span-color);
+}
+.sidebar ul li:hover{
+  color: var(--span-color);
+  transform: translateX(1em);
+  -webkit-transform: translateX(1em);
+  -moz-transform: translateX(1em);
+  -ms-transform: translateX(1em);
+  -o-transform: translateX(1em);
+}
+.navbar ul li a {
+    color: var(--a-color);
+}
+@media screen and (max-width: 1000px) {
+    .navbar ul li a {
+        display: none;
+    }
+    
+}
+
+
+.navbar-fluid ul li {
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.navbar-fluid ul li:hover {
+  transform: translateX(1em);
+  -webkit-transform: translateX(1em);
+  -moz-transform: translateX(1em);
+  -ms-transform: translateX(1em);
+  -o-transform: translateX(1em);
+}
+.navbar-fluid ul li a {
+  font-size: 30px;
+  font-weight: 400;
+}
+.navbar-fluid ul li a:hover {
+  color: var(--span-color);
+}
+img {
+  animation-name: image;
+  animation-duration: 0.5s;
+}
+
+@keyframes image {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

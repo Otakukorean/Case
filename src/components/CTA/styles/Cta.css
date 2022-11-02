@@ -1,0 +1,58 @@
+.text-buttons {
+    margin-bottom: 1.4rem;
+}
+.text-buttons .text-container h1 {
+    color: var(--fotn-color);
+    font-size: 3.75rem;
+    font-weight: 500;
+}
+.text-buttons .text-container {
+    margin-bottom: 3rem;
+}
+.text-buttons .button-container {
+    flex-wrap: wrap;
+}
+.text-buttons .button-container button {
+    background: var(--buutons-bg);
+    width: 10rem;
+    height: 3.625rem;
+    border-radius:33px ;
+    -webkit-border-radius:33px ;
+    -moz-border-radius:33px ;
+    -ms-border-radius:33px ;
+    -o-border-radius:33px ;
+    cursor: pointer;
+
+}
+.text-buttons .button-container button h2 {
+    color: var(--bg-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.text-buttons .button-container button:first-child{
+    margin-right: 1rem;
+}
+.text-buttons .button-container button  p {
+    color: var(--bg-color);
+    opacity: 0.7;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.text-buttons .button-container button .btn-lol  img {
+    margin:0.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-Container img {
+    width: 100%;
+}
